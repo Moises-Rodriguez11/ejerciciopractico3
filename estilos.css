@@ -1,0 +1,152 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.header h3 {
+    margin: 0;
+    color: #8B0000;
+}
+
+.left-header h3 {
+    color: #8B0000;
+}
+
+.right-header h3 {
+    text-align: right;
+    color: #000;
+}
+
+.table-container {
+    margin-bottom: 25px;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla th, .tabla td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.tabla th {
+    background-color: #8B0000;
+    color: #fff;
+}
+
+.ajaxTitle th {
+    background-color: #8B0000;
+}
+
+.totals {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.totals-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+    margin-right: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.btn-teal {
+    background-color: #8B0000;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-teal:hover {
+    background-color: #660000;
+}
+
+.btn-blue {
+    background-color: #000;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-blue:hover {
+    background-color: #333;
+}
+
+.product-client {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product, .client {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+    color: #8B0000;
+    margin-bottom: 10px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
