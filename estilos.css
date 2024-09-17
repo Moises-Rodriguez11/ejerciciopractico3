@@ -150,3 +150,56 @@ input[type="text"] {
     padding: 10px;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right-header {
+        margin-top: 10px;
+    }
+
+    .totals {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .totals-right {
+        width: 100%;
+    }
+
+    .product-client {
+        flex-direction: column;
+    }
+
+    .product, .client {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tabla th, .tabla td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn-teal, .btn-blue {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h3 {
+        font-size: 18px;
+    }
+
+    .tabla th, .tabla td {
+        font-size: 12px;
+    }
+
+    .input-field {
+        padding: 8px;
+    }
+}
