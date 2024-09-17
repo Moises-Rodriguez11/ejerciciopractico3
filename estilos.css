@@ -56,10 +56,6 @@ body {
     color: #fff;
 }
 
-.ajaxTitle th {
-    background-color: #8B0000;
-}
-
 .totals {
     display: flex;
     justify-content: space-between;
